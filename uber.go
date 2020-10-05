@@ -1,11 +1,11 @@
 package ratelimit
 
 import (
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/server"
-	"go.uber.org/ratelimit"
-
 	"context"
+
+	"github.com/unistack-org/micro/v3/client"
+	"github.com/unistack-org/micro/v3/server"
+	"go.uber.org/ratelimit"
 )
 
 type clientWrapper struct {
@@ -28,7 +28,7 @@ func NewClientWrapper(rate int, opts ...ratelimit.Option) client.Wrapper {
 }
 
 // NewHandlerWrapper creates a blocking server side rate limiter
-func NewHandlerWrapper(rate int, opts ...ratelimit.Option) server.HandlerWrapper {
+func NewServerHandlerWrapper(rate int, opts ...ratelimit.Option) server.HandlerWrapper {
 	r := ratelimit.New(rate, opts...)
 
 	return func(h server.HandlerFunc) server.HandlerFunc {
