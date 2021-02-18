@@ -1,8 +1,10 @@
-module github.com/unistack-org/micro-wrapper-ratelimiter-uber
+module github.com/unistack-org/micro-wrapper-ratelimiter-uber/v3
 
-go 1.13
+go 1.16
 
 require (
-	github.com/unistack-org/micro/v3 v3.2.8
+	github.com/stretchr/testify v1.7.0 // indirect
+	github.com/unistack-org/micro/v3 v3.2.14
+	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/ratelimit v0.1.0
 )
