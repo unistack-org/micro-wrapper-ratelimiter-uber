@@ -53,6 +53,8 @@ github.com/unistack-org/micro/v3 v3.3.2/go.mod h1:tX95c0Qx4w6oqU7qKThs9lya9P507B
 github.com/unistack-org/micro/v3 v3.3.4/go.mod h1:tX95c0Qx4w6oqU7qKThs9lya9P507BdZ29MsTVDmU6w=
 github.com/unistack-org/micro/v3 v3.3.8 h1:4e4gWuZI/cRUGZ6ZZpdrIDOF2MLO6cjHxeFfZzy610Y=
 github.com/unistack-org/micro/v3 v3.3.8/go.mod h1:M3RGgKZX1OlTn0QB+3R1tlSoGwmEg6rb/Isr0lLYmjQ=
+github.com/unistack-org/micro/v3 v3.3.9 h1:NFF4wymDDxgYeZU++04BxvETrrAnd0iNzVyfm/ssQI4=
+github.com/unistack-org/micro/v3 v3.3.9/go.mod h1:M3RGgKZX1OlTn0QB+3R1tlSoGwmEg6rb/Isr0lLYmjQ=
 go.uber.org/atomic v1.7.0 h1:ADUqmZGgLDDfbSL9ZmPxKTybcoEYHgpYfELNoN+7hsw=
 go.uber.org/atomic v1.7.0/go.mod h1:fEN4uk6kAWBTFdckzkM89CLk9XfWZrxpCo0nPH17wJc=
 go.uber.org/ratelimit v0.1.0 h1:U2AruXqeTb4Eh9sYQSTrMhH8Cb7M0Ian2ibBOnBcnAw=
